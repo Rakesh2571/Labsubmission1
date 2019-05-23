@@ -3,7 +3,7 @@ Nmeter
 
             [Test]
             public void GetSubstraction_Input3point5and2point4_Returns1point1()
-            {
+            { 
                 //Arrange
                 double numb7 = 3.5;
                 double numb8 = 2.4;
