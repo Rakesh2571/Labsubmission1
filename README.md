@@ -1,56 +1,55 @@
 # Labsubmission1
 Nmeter
 
-            [Test]
-            public void GetSubstraction_Input3point5and2point4_Returns1point1()
+           [Test]
+            public void GetMultiplication_Input5point0and2point0_Returns10point0()
             {
                 //Arrange
-                double numb7 = 3.5;
-                double numb8 = 2.4;
-                double expectedResult = numb7 - numb8;
+                double numb11 = 5.0;
+                double numb12 = 2.0;
+                double expectedResult = numb11 * numb12;
 
-                Calc Testcalc = new Calc(numb7, numb8);
+                Calc Testcalc = new Calc(numb11, numb12);
 
                 //Act
-                double actualResult = Testcalc.GetSubtraction();
+                double actualResult = Testcalc.GetMultiplication();
 
                 //Assert
                 Assert.AreEqual(expectedResult, actualResult);
 
             }
             [Test]
-            public void GetSubstraction_Input4point5and1point4_Returns3point1()
+            public void GetMultiplication_Input6point0and3point0_Returns12point0()
             {
                 //Arrange
-                double numb9 = 4.5;
-                double numb10 = 1.4;
-                double expectedResult = numb9 - numb10;
+                double numb13 = 6.0;
+                double numb14 = 3.0;
+                double expectedResult = numb13 * numb14;
 
-                Calc Testcalc = new Calc(numb9, numb10);
-
-                //Act
-                double actualResult = Testcalc.GetSubtraction();
-
-                //Assert
-                Assert.AreEqual(expectedResult, actualResult);
-
-
-            }
-            [Test]
-            public void GetSubstraction_Input5point5and3point4_Return2point1()
-            {
-                //Arrange
-                double numb9 = 5.5;
-                double numb10 = 3.4;
-                double expectedResult = numb9 - numb10;
-
-                Calc Testcalc = new Calc(numb9, numb10);
+                Calc Testcalc = new Calc(numb13, numb14);
 
                 //Act
-                double actualResult = Testcalc.GetSubtraction();
+                double actualResult = Testcalc.GetMultiplication();
 
                 //Assert
                 Assert.AreEqual(expectedResult, actualResult);
 
             }
             [Test]
+            public void GetMultiplication_Input4point0and1point0_Returns4point0()
+            {
+                //Arrange
+                double numb15 = 4.0;
+                double numb16 = 1.0;
+                double expectedResult = numb15 * numb16;
+
+                Calc Testcalc = new Calc(numb15, numb16);
+
+                //Act
+                double actualResult = Testcalc.GetMultiplication();
+
+                //Assert
+                Assert.AreEqual(expectedResult, actualResult);
+
+            }
+
